@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: wheat;
+    font-family: 'Fira Sans', sans-serif;
+}
+hr {
+    background: teal;
+    border: 1px solid teal;
+    width: 95%;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textArea {
+    /*display: block;*/
+    resize: none;
+    margin-top: 50px;
+    height: 100px;
+    width: 300px;
+
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
